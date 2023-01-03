@@ -48,3 +48,8 @@ const api = {
   
     return `${day} ${date} ${month} ${year}`;
   }
+window.addEventListener("load", (event) => {
+      console.log("page is fully loaded"); 
+      /*Now we can update the weather*/
+      getResults("Kolkata");
+    });
